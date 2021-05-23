@@ -1,4 +1,5 @@
 // Your code here
+<<<<<<< HEAD
 class Cat{
     constructor(name, sex){
         this.name = name;
@@ -36,3 +37,31 @@ class Bird{
       }
     }
 }
+=======
+class Cat {
+    constructor (name, sex){
+      this.name = name;
+      this.sex = sex;
+    }
+  }
+  
+  let newCat = new Cat("mikky", "mouse");
+  speak() {
+    return `${this.name} says meow!`;
+  }
+Cat.speak()
+
+class Dog {
+    constructor (name, sex){
+      this.name = name;
+      this.sex = sex;
+    }
+  }
+  
+class Bird {
+    constructor (name, sex){
+      this.name = name;
+      this.sex = sex;
+    }
+  }
+>>>>>>> 8a8ee0a333dfa42fa16406a0a1d8fe2eb0ad2b68
